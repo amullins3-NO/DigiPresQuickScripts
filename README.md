@@ -15,16 +15,14 @@ powershell -executionpolicy -bypass "C:\path to script\script.ps1"
 
 Press enter and the script will run. 
 
-<u>Table of Contents</u>
 
-URL.ps1
 CompleteFileScan.ps1
+This is a comprehensive scan for understanding the contents of a directory and creating a comprehensive list of file types and quantities present on directory, preliminary inventories of specified file types, and a complete inventory of files on the directory that includes SHA256 checksum. The script helps complete steps for accessioning and processing digital records. 
 
 URL.ps1
 This script creates a Duracloud Preserve url for each file in an identified directory. It produces a csv file including an inventory of files and their new urls. 
 
 This script needs a simple edit for using it. The second line of the script has been marked with a # in front of $baseUrl, so that line will be ignored during the scan until the # is removed. Enter the base url for the your duracloud preserve space. Save the file.
 
-CompleteFileScan.ps1
-This is a comprehensive scan for understanding the contents of a directory and creating a comprehensive list of file types and quantities present on directory, preliminary inventories of specified file types, and a complete inventory of files on the directory that includes SHA256 checksum. The script helps complete steps for accessioning and processing digital records. 
+
 
