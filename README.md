@@ -1,4 +1,6 @@
-# DigiPresQuickScripts
+# Digital Preservation Quick Scripts
+The goals with Digital Preservation Quick Scripts is to create a repository of scripts archivists and digital preservationists can use natively on a variety of operating systems without installing additional software. While Powershell is the initial focus, the plan is to expand and create a suite of scripts for various operating systems to help archivists remain technologically agnostic without having to install software. 
+
 Quick scripts that can be primarily run in powershell (windows) that perform various digital preservation actions.  Scripts in this repository will provide basic digital preservation metadata about file directories, as well as create basic metadata that can be used for processing and discovery. 
 
 Most of these scripts were created in Powershell through careful searching of forums for pieces of code to use, then compiling them into a single script with prompts. Over time, some simple scripts evolved to include multiple functions. Some use of ChatGPT and other ML tools helped check for errors in the intial coding. 
