@@ -24,12 +24,3 @@ Duracloud Preserve URL
 This script creates a url for each file in an identified directory. It produces a csv file including an inventory of files and their new urls. 
 
 This script needs a simple edit for using it. The second line of the script has been marked with a # in front of $baseUrl, so that line will be ignored during the scan until the # is removed. Enter the base url for the your duracloud preserve space. Save the file.
-
-EX: 
-# Base URL where the files are hosted
-#$baseUrl = "https://{insert space name here].preserve.duracloud.org/"\
-
-changed to 
-
-# Base URL where the files are hosted
-$baseUrl = "https://nolacityarchives.preserve.duracloud.org/"
