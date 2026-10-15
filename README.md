@@ -1,2 +1,8 @@
 # DigiPresQuickScripts
 Quick scripts that can be primarily run in powershell (windows) that perform various digital preservation actions.  Scripts in this repository will provide basic digital preservation metadata about file directories, as well as create basic metadata that can be used for processing and discovery. 
+
+Most of these scripts were created in Powershell through careful searching of forums for pieces of code to use, then compiling them into a single script with prompts. Over time, some simple scripts evolved to include multiple functions. Some use of ChatGPT and other ML tools helped check for errors in the intial coding. 
+
+We started using scripts to streamline and collapse various steps in our accessioning/processing workflows for born digital and digitized materials. Working with Powershell and CMD terminal allowed us to forgo any requests for specialized software installations. Most of the metadata they produce can be used to generate preliminary information and inventories of a directory and subdirectories, batch import digital objects in ArchivesSpace, and link to publicly accessible materials in either contentDM or Duracloud Preserve. While these scripts are purpose driven, they have been posted here to be as platform agnostic as possible. Eventually, I want to post versions of the scripts for bash and MACOS. 
+
+Hopefully, these scripts can assist smaller archives or repositories work with their digital records backlog, especially those institutions or community organizations with limited staff, resources, and technical knowledge. Instructions for using the scripts will be geared towards this audience. 
